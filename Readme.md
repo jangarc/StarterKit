@@ -86,6 +86,42 @@ git submodule add git@github.com:jangarc/StarterKit-WebApi.git WebApi
 cd WebApi
 dotnet new gitignore
 git add .
-git commit -m "初始化Infrastructure專案"
+git commit -m "初始化WebApi專案"
 git push -u origin main
+```
+
+## git submodule 使用
+
+拉取最新代碼
+
+```bash
+# 使用
+git submodule update --remote --merge
+
+# 或進入子專案版本庫資料夾
+cd src/Domain
+git pull origin main
+```
+
+推送代碼
+
+```bash
+# 進入子模組目錄
+cd src/Domain
+
+# 提交並推送 Domain 的修改
+git add .
+git commit -m "提交說明"
+git push origin main
+
+# 回到主方案根目錄
+cd ../..
+
+# 檢查狀態，你會看到 src/Domain 顯示為新修改
+git status
+
+# 提交主方案的改動（包含 slnx 的調整與子模組的新指針）
+git add .
+git commit -m "chore: 更新主方案與 Domain 子模組版本"
+git push origin main
 ```
