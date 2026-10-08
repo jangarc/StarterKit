@@ -1,0 +1,12 @@
+[submodule "src/Application"]
+	path = src/Application
+	url = git@github.com:jangarc/StarterKit-Application.git
+[submodule "src/Domain"]
+	path = src/Domain
+	url = git@github.com:jangarc/StarterKit-Domain.git
+[submodule "src/Infrastructure"]
+	path = src/Infrastructure
+	url = git@github.com:jangarc/StarterKit-Infrastructure.git
+[submodule "src/WebApi"]
+	path = src/WebApi
+	url = git@github.com:jangarc/StarterKit-WebApi.git
