@@ -41,6 +41,8 @@ git push -u origin main
 cd src
 # 綁定子儲存庫預設會有main分支)
 git submodule add git@github.com:jangarc/StarterKit-Domain.git Domain
+git submodule add git@github.com:jangarc/StarterKit-Domain-Shared.git Shared
+git submodule add git@github.com:jangarc/StarterKit-Domain-Identity.git Identity
 # 將檔案Copy回Domain資料夾
 cd Domain
 dotnet new gitignore

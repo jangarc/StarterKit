@@ -4,6 +4,8 @@
     <Project Path="src/Applications/Application/Application.csproj" />
   </Folder>
   <Folder Name="/src/Domains/">
+    <Project Path="src/Domains/Shared/Shared.csproj" Id="476345b7-94bd-4b9b-b1b9-f543f046bd17" />
+    <Project Path="src/Domains/Identity/Identity.csproj" Id="46838fe5-e005-4391-8f93-d3b94ebbfdb0" />
     <Project Path="src/Domains/Domain/Domain.csproj" />
   </Folder>
   <Folder Name="/src/Hosts/">
