@@ -1,8 +1,15 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/Application/Application.csproj" />
-    <Project Path="src/Domain/Domain.csproj" />
-    <Project Path="src/Infrastructure/Infrastructure.csproj" />
-    <Project Path="src/WebApi/WebApi.csproj" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/Applications/">
+    <Project Path="src/Applications/Application/Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Domains/">
+    <Project Path="src/Domains/Domain/Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Hosts/">
+    <Project Path="src/Hosts/WebApi/WebApi.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructures/">
+    <Project Path="src/Infrastructures/Infrastructure/Infrastructure.csproj" />
   </Folder>
 </Solution>
